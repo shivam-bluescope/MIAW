@@ -5,15 +5,15 @@
     <title>MIAW</title>
 </head>
 <body>
-    <script type='text/javascript'>
+    	<script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
 				'00D0k0000005KxQ',
-				'Orrcon_Website_Messaging_Deployment',
-				'https://downstream--osdbsd.sandbox.my.site.com/ESWOrrconWebsiteMessagi1692268876710',
+				'Github_MIAW',
+				'https://downstream--osdbsd.sandbox.my.site.com/ESWGithubMIAW1692274171713',
 				{
 					scrt2URL: 'https://downstream--osdbsd.sandbox.my.salesforce-scrt.com'
 				}
@@ -23,7 +23,6 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://downstream--osdbsd.sandbox.my.site.com/ESWOrrconWebsiteMessagi1692268876710/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
-
+<script type='text/javascript' src='https://downstream--osdbsd.sandbox.my.site.com/ESWGithubMIAW1692274171713/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </body>
 </html>
